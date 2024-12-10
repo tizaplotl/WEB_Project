@@ -1,0 +1,51 @@
+/* Body Styling */
+body {
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    background: #fff;
+}
+
+main h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+
+section img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px;
+}   
+
+#Copyright {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #aaa;
+}
