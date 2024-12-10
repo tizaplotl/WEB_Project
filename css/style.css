@@ -172,59 +172,6 @@ footer ul li a {
     clear: both;
     padding-top: 10px;
 }
-/* HOMEGYM AND MOTIVATION CSS */
-#homeWhy, #homeEquipment, #homeRoutines {
-    background: white;
-    border: 1px solid grey;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 6px black;
-}
-#homeWhy {
-    float: left;
-}
-#homeEquipment {
-    clear: both;
-    width: auto;
-}
-#homeEquipment ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 0;
-    list-style: none;
-}
-
-#homeEquipment ul li {
-    flex: 1 1 calc(50% - 20px);
-    width: auto;
-    background-color: red;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-#homeRoutines {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex: 1 1 300px;
-}
-
-#homeRoutines aside {
-    width: 100%;
-    margin-top: 20px;
-    padding: 10px;
-    background: #e0e0e0;
-    border-radius: 5px;
-    border-left: 5px solid black;
-}
-#homeRoutines li {
-    list-style: none;
-}
 
 @media only screen and (min-height: 460px) {
 
