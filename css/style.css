@@ -148,8 +148,6 @@ footer {
     padding: 10px;
 }
 
-
-
 footer ul li a {
     color: #da8916;
     display: block;
@@ -171,6 +169,7 @@ footer ul li a {
     clear: both;
     padding-top: 10px;
 }
+
 
 @media only screen and (min-height: 460px) {
 
