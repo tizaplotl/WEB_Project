@@ -1,0 +1,64 @@
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    background-color: rgba(248, 181, 37, 0.077);;
+}
+
+nav {
+    float: none;
+    background-color: #333;
+    text-shadow: 2px 3px 9px rgba(255, 208, 0, 0.905);
+    line-height: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 200px;
+}
+
+
+
+
+
+nav a:hover {
+    text-shadow: 0px 0px 1px rgb(75, 65, 1);
+}
+
+footer {
+    clear: both;
+    background-color: antiquewhite;
+    font-size: 88%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1a1818;
+    padding: 10px;
+    margin: 0px 0px;
+}
+
+footer ul li a {
+    color: #da8916;
+    display: block;
+    padding: 0%;
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+.content4 {
+    float: left;
+    width: 25%;
+}
+
+#Copyright {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
+}

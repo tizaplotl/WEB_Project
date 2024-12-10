@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sauna Benefits</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/sauna.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="../project1/index.html">Muscular mindset</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Workout Plans</a></li>
+            <li><a href="index.html">Nutrition Advice</a></li>
+            <li><a href="#">Mental Wellness Practices</a></li>
+            <li><a href="#">Rest and Recovery</a></li>
+            <li><a href="#">Health benefits</a></li>
+            <li><a href="#">Motivation</a></li>
+            <li><a href="#">Home Gym</a></li>
+            <li><a href="#">Q&A section</a></li>
+            <li><a href="#footer">Contact us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Background Video -->
+        <video autoplay muted loop id="sauna-bg">
+            <source src="/images/sauna-background.mp4" type="video/mp4">
+        </video>
+
+        <h2>Unleash the Power of Sauna After Your Gym Session</h2>
+        <section class="gym_effects hidden">
+            <div class="content">
+                <p>After an intense gym session, your muscles are screaming for recovery, and your mind is seeking tranquility. That’s where a sauna steps in as your ultimate post-gym sanctuary. Sitting in a sauna after working out doesn’t just feel good—it accelerates recovery, enhances performance, and promotes overall wellness.</p>
+                <p><b>Muscle Recovery:</b> The intense heat of a sauna increases blood circulation, delivering oxygen and nutrients directly to your fatigued muscles. This helps reduce muscle soreness and aids in faster recovery, so you’re ready to tackle your next workout.</p>
+                <p><b>Detoxification:</b> Sweating is your body’s natural way of flushing out toxins. After a rigorous workout, a sauna session helps eliminate lactic acid and other waste products that build up during exercise, leaving you feeling refreshed and revitalized.</p>
+                <p><b>Stress Relief:</b> Exercise can be a mental challenge as much as a physical one. A sauna provides a tranquil escape, lowering cortisol levels and promoting the release of endorphins—the hormones responsible for that post-workout “high.”</p>
+                <p><b>Improved Flexibility:</b> The heat helps loosen stiff joints and tight muscles, making stretching more effective. This is especially beneficial for athletes or anyone looking to improve mobility and prevent injury.</p>
+                <p><b>Enhanced Sleep Quality:</b> The relaxation achieved in a sauna can help regulate your sleep cycle. Many gym-goers find that a sauna session in the evening improves their sleep, ensuring better recovery overnight.</p>
+                <p><b>Cardiovascular Benefits:</b> Sitting in a sauna increases your heart rate in a way similar to light cardio. This mimics the effects of exercise and contributes to a stronger, healthier heart—especially beneficial after heavy lifting or HIIT sessions.</p>
+            </div>
+        </section>
+    
+        <!-- Dynamic Cards Section -->
+        <section class="benefits hidden">
+            <div class="card">
+                <div class="card-front">
+                    <h3>Detoxify Your Body</h3>
+                </div>
+                <div class="card-back">
+                    <p>Experience a full-body cleanse as the sauna's heat helps eliminate toxins and impurities through sweat.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-front">
+                    <h3>Relaxation & Sleep</h3>
+                </div>
+                <div class="card-back">
+                    <p>Unwind and de-stress in a calming environment that promotes deeper sleep and mental clarity.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-front">
+                    <h3>Skin Health</h3>
+                </div>
+                <div class="card-back">
+                    <p>Reveal radiant skin as your pores open and impurities are gently flushed away, leaving a youthful glow.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Interactive Sauna Hotspot -->
+        <h2>Explore the Sauna</h2>
+        <section class="interactive hidden">
+            <p>Hover over the icons to learn more about the benefits of each sauna zone.</p>
+            <div class="sauna-diagram">
+                <img src="/images/minecraft.gif" alt="Sauna Diagram">
+                <div class="hotspot" style="top: 20%; left: 50%;" data-info="High heat stimulates detox."></div>
+                <div class="hotspot" style="top: 50%; left: 70%;" data-info="Relaxation area reduces stress."></div>
+                <div class="hotspot" style="top: 80%; left: 40%;" data-info="Gentle heat promotes sleep."></div>
+            </div>
+        </section>
+    </main>    
+
+    <footer id="footer">
+        <div class="content4">
+            <h3>Office hours</h3>
+            <ul>
+                <li>Monday-Saturday: 9am-5pm</li>
+                <li>Sundays: 2am - 6pm</li>
+            </ul>
+            <h4>Address</h4>
+            <p>70 Lindylou Rd, Montreal, CA 2B4 6A3</p>
+        </div>
+        <div class="content4">
+            <h3>Contact us</h3>
+            <ul>
+                <li>By Email:<a href="mailto:alejaarteaga17@hotmail.com">&#9993;</a></li>
+                <li>By Phone Call:<a href="tel:3447293456">&#9742;</a></li>
+            </ul>
+            
+        </div>
+        <div class="content4">
+            <h3>Social Media</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">TikTok</a></li>
+            </ul>
+        </div>
+        <div class="content4">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#content">Fitness Tips</a></li>
+                <li><a href="#content2">Nutrition Advice</a></li>
+                <li><a href="#content3">Workout Plans</a></li>
+            </ul>
+        </div>
+        <p id="Copyright">Copyright &copy; Offical Muscular Mindset</p>
+    </footer>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Set up IntersectionObserver to trigger animations when elements are in view
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Add class to trigger animation when the element comes into view
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    // Target elements that you want to animate
+    const sections = document.querySelectorAll('.hidden');
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+
+    // GSAP Animations for immediate effects
+    gsap.from(".intro h2", { opacity: 0, y: -50, duration: 1 });
+    gsap.from(".intro p", { opacity: 0, y: 50, duration: 1, delay: 0.5 });
+    gsap.from(".card", { opacity: 0, scale: 0.8, duration: 1, stagger: 0.3 });
+
+    // Hotspot Info Display
+    document.querySelectorAll(".hotspot").forEach(hotspot => {
+        hotspot.addEventListener("mouseover", function() {
+            const info = document.createElement("div");
+            info.classList.add("tooltip");
+            info.innerText = this.dataset.info;
+            this.appendChild(info);
+        });
+        hotspot.addEventListener("mouseout", function() {
+            this.querySelector(".tooltip").remove();
+        });
+    });
+});
+    </script>
+</body>
+</html>
