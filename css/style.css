@@ -42,14 +42,13 @@ nav {
     padding: 15px;
     width: 20%;
     float: left;
-    height: 380%;
+    height: 100%;
     text-shadow: 2px 3px 9px rgba(255, 208, 0, 0.905);
-    margin: 15px 0;
 }
 
 nav ul li{
     margin: 10px 0;
-    list-style-type: none;
+    list-style-type: none; 
 }
 
 nav a {
@@ -81,6 +80,7 @@ h2 {
     color: #191818;
     font-family: 900 1em cursive;
     margin: 20px;
+    border-bottom: 2px solid orangered;
 }
 
 /* Fitness tips section */
@@ -146,7 +146,6 @@ footer {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #1a1818;
     padding: 10px;
-    margin: 20px 30px;
 }
 
 
