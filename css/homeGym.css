@@ -1,0 +1,80 @@
+/* HOMEGYM AND MOTIVATION CSS */
+#homeGym, #homeNav {
+    height: 2000px;
+}
+#homeWhy, #homeEquipment, #homeRoutines, #homeGymBenefits, #homeGymStartup {
+    background: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px black;
+}
+#homeWhyContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    min-height: 300px;
+}
+#homeWhy {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#homeWhy h2 {
+    margin: 0px;
+}
+#homeGymEx {
+    flex: 2;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    min-height: 300px;
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px black;
+}
+#homeEquipment {
+    clear: both;
+    width: auto;
+}
+#homeEquipment ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+#homeEquipment ul li {
+    flex: 1 1 calc(50% - 20px);
+    width: auto;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#homeRoutines {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 1 300px;
+}
+
+#homeRoutines aside {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    border-left: 5px solid black;
+}
+#homeRoutines li {
+    list-style: none;
+}
