@@ -1,0 +1,16 @@
+.subheading {
+    font-size: 2em;
+}
+
+.subheading2 {
+    font-size: 1.5em;
+}
+
+.tableHeader, .tableElement {
+    padding:10px;
+}
+
+table, .tableElement, .tableHeader {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
