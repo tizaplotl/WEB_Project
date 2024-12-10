@@ -1,8 +1,4 @@
 /* HOMEGYM AND MOTIVATION CSS */
-#homeGym, #homeNav {
-    height: 2500px;
-    max-width: 100%;
-}
 #homeWhy, #homeEquipment, #homeRoutines, #homeGymBenefits, #homeGymStartup {
     background: white;
     border: 1px solid grey;
@@ -92,4 +88,21 @@
     border-bottom: 0px;
     width: 50%;
     margin: auto;
+}
+#homeGymStartup table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px black;
+}
+
+#homeGymStartup th, #homeGymStartup td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+#homeGymStartup th {
+    background-color: red;
+    font-weight: bold;
 }
