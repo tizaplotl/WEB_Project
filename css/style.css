@@ -146,6 +146,7 @@ footer {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #1a1818;
     padding: 10px;
+    
 }
 
 footer ul li a {
@@ -160,6 +161,14 @@ footer ul li a {
 .content4 {
     float: left;
     width: 25%;
+    text-align: center;
+}
+.content4 ul li a {
+    text-align: center;
+    
+}
+.content4 ul li {
+    list-style-type: none;
 }
 
 #Copyright {
