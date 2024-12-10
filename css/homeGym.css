@@ -7,6 +7,10 @@
     margin: 10px;
     box-shadow: 0 4px 6px black;
 }
+/* Temporary fix */
+#homeGymNav {
+    height: 500%;
+}
 #homeWhyContainer {
     display: flex;
     align-items: flex-start;
