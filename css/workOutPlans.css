@@ -1,3 +1,18 @@
+#htmlworkout #bodyworkout {
+/* height: 100%; */
+margin: 0;
+padding: 0;
+}
+
+/* #navworkout {
+    height: 100%;
+} */
+
+#mainworkout {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
 .subheading {
     font-size: 2em;
 }
@@ -6,45 +21,28 @@
     font-size: 1.5em;
 }
 
+#workOutTable {
+    width:50%;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
 .tableHeader, .tableElement {
     padding:10px;
 }
 
-#workOutTable {
-    width: 50%;
-    margin: 0 25% 0 25%;
-    display: block;
-}
-
-#workOutTable, .tableElement, .tableHeader {
+.tableElement, .tableHeader {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-#workout1 {
+#workout1, #workout2,#workout3 {
+    background-color: white;
     width: 50%;
     margin: 0 25% 0 25%;
 }
 
-.dropdown-content1 {
-    display: none;
-}
-
-#workout2 {
-    width: 50%;
-    margin: 0 25% 0 25%;
-}
-
-.dropdown-content2 {
-    display: none;
-}
-
-#workout3 {
-    width: 50%;
-    margin: 0 25% 0 25%;
-}
-
-.dropdown-content3 {
+.dropdown-content1, .dropdown-content2, .dropdown-content3 {
     display: none;
 }
 
