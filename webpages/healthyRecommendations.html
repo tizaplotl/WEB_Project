@@ -126,25 +126,31 @@
                         <h2>How these calculations work</h2>
                         <h3>Calculating Ideal Body Weight (IBW)</h3>
                         <p><b>What is IBW?</b><br>
-                        Ideal Body Weight (IBW) is a guideline to estimate a healthy weight range for individuals based
-                        on
-                        their
-                        height. It was originally developed for medical use to determine dosages and monitor health
-                        risks.<br>
-                        <b>How is it calculated?</b><br>
-                        IBW is calculated using simple formulas that consider your height and gender. Different methods
-                        provide
-                        slightly varying results, but all aim to give a general idea of what a healthy weight might
-                        be.<br>
-                        Devine Formula: The most widely used method. It assumes an average body frame.<br>
-                        For males: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IBW (kg) = 50 + 2.3 × (Height in inches−60)<br>
-                        For females: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IBW (kg) = 45.5 + 2.3 × (Height in inches−60)<br>
-                        <b>Why use IBW?</b><br>
-                        IBW is a starting point to assess health and develop fitness goals. However, it doesn’t account
-                        for
-                        factors like muscle mass or body composition, so it should be used alongside other measurements
-                        like
-                        Body Mass Index (BMI) and body fat percentage.<br><br>
+                            Ideal Body Weight (IBW) is a guideline to estimate a healthy weight range for individuals
+                            based
+                            on
+                            their
+                            height. It was originally developed for medical use to determine dosages and monitor health
+                            risks.<br>
+                            <b>How is it calculated?</b><br>
+                            IBW is calculated using simple formulas that consider your height and gender. Different
+                            methods
+                            provide
+                            slightly varying results, but all aim to give a general idea of what a healthy weight might
+                            be.<br>
+                            Devine Formula: The most widely used method. It assumes an average body frame.<br>
+                            For males: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IBW (kg) = 50
+                            + 2.3 × (Height in inches−60)<br>
+                            For females: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IBW (kg) = 45.5 + 2.3 ×
+                            (Height in inches−60)<br>
+                            <b>Why use IBW?</b><br>
+                            IBW is a starting point to assess health and develop fitness goals. However, it doesn’t
+                            account
+                            for
+                            factors like muscle mass or body composition, so it should be used alongside other
+                            measurements
+                            like
+                            Body Mass Index (BMI) and body fat percentage.<br><br>
                         <h3>Daily Caloric Needs</h3>
                         Daily caloric needs represent the number of calories your body requires to maintain your current
                         weight.
@@ -159,7 +165,8 @@
                         - Step 1: Basal Metabolic Rate (BMR):<br>
                         This is the energy your body needs at rest. The Mifflin-St Jeor Equation is widely used:<br>
                         For males:<br>BMR (kcal/day) = 10 × Weight (kg) + 6.25 × Height(cm) − 5 × Age (years) + 5<br>
-                        For females:<br>BMR (kcal/day) = 10 × Weight (kg) + 6.25 × Height(cm) − 5 × Age (years) - 161<br>
+                        For females:<br>BMR (kcal/day) = 10 × Weight (kg) + 6.25 × Height(cm) − 5 × Age (years) -
+                        161<br>
                         - Step 2: Activity Factor:<br>
                         Multiply your BMR by an activity factor based on your lifestyle:<br>
                         <ul>
@@ -182,15 +189,18 @@
                         <b>How does it work?</b><br>
                         1. Determine Weight Difference:<br>
                         Calculate the difference between your current weight and your target weight.<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weight Difference = ∣Current Weight − Target Weight∣<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weight Difference = ∣Current Weight
+                        − Target Weight∣<br>
                         2. Set Calorie Deficit or Surplus:<br>
                         To lose weight, create a calorie deficit (e.g., 500 fewer calories/day).<br>
                         To gain weight, create a calorie surplus (e.g., 500 extra calories/day).<br>
                         A deficit or surplus of 7700 calories equals roughly 1 kg of weight change.<br>
                         3. Estimate Weekly Weight Change:<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weekly Change (kg) =Daily Calorie Change × 7 / 7700<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weekly Change (kg)
+                        =Daily Calorie Change × 7 / 7700<br>
                         4. Calculate Time to Goal:<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time (weeks) = Weight Difference (kg) / Weekly Change (kg)<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time (weeks) =
+                        Weight Difference (kg) / Weekly Change (kg)<br>
                         <b>Why use it?</b><br>
                         This calculator provides a clear, measurable plan to achieve weight goals. It helps users stay
                         on
@@ -203,9 +213,70 @@
                 <p>Ready to take control of your health? Start by exploring our calculators or reading our expert advice
                     to make informed decisions about your diet, exercise, and well-being. Let’s embark on this journey
                     together!</p>
+                <h2 id="titleregistration">Weight Calculations</h2>
+                <form name="weightCalculations" id="weightCalculations">
+                    <div id="subelements">
+                        <div class="elements">
+                            <label class="editlabels" for="weight">Weight(kg):</label>
+                            <input type="number" name="weight" id="weight"><br>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="height">Height(inch):</label>
+                            <input type="number" name="height" id="height"><br>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="age">Age(years):</label>
+                            <input type="number" name="age" id="age"><br>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="gender">Gender:</label>
+                            <select id="gender" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="activityLevel">Activity Level:</label>
+                            <select id="activityLevel" required>
+                                <option value="1.2">Sedentary</option>
+                                <option value="1.375">Lightly Active</option>
+                                <option value="1.55">Moderately Active</option>
+                                <option value="1.725">Very Active</option>
+                                <option value="1.9">Extra Active</option>
+                            </select>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="targetWeight">Target Weight:</label>
+                            <input type="number" name="targetWeight" id="targetWeight"><br>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="calorieadjustment">Enter your daily calorie adjustment
+                                (negative for weight loss, positive for weight gain):</label>
+                            <input type="number" name="calorieadjustment" id="calorieadjustment"><br>
+                        </div>
+                        <div class="buttonsend">
+                            <button type="button" id="calculate">Calculate</button>
+                            <button type="button" id="clear">Clear</button>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="idealbodyweight">Ideal Body Weight:</label>
+                            <input type="number" name="idealbodyweight" id="idealbodyweight"><br>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="dailycaloricneeds">Daily Caloric Needs:</label>
+                            <input type="number" name="dailycaloricneeds" id="dailycaloricneeds"><br>
+                        </div>
+                        <div class="elements">
+                            <label class="editlabels" for="lossorgaincalculator">The weight that should be gain or
+                                lost:</label>
+                            <input type="number" name="lossorgaincalculator" id="lossorgaincalculator"><br>
+                        </div>
+                    </div>
+                </form>
             </section>
         </div>
-        <p id="lastp">If you want to log and track your weight over time with visual graphs, set and monitor weight-related
+        <p id="lastp">If you want to log and track your weight over time with visual graphs, set and monitor
+            weight-related
             personalized goals, and receive tailored advice based on your data, please fill the registration form or<a
                 href="#footer"> contact us </a>by email or phone.</p><br>
         <footer id="footer">
