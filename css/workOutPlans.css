@@ -15,10 +15,20 @@ padding: 0;
 
 .subheading {
     font-size: 2em;
+    text-align: center;
 }
 
 .subheading2 {
     font-size: 1.5em;
+    text-align: center;
+}
+
+.bubbleView {
+    border: 1px solid grey;
+    box-shadow: 0 4px 6px black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
 }
 
 #workOutTable {
@@ -37,7 +47,6 @@ padding: 0;
 }
 
 #workout1, #workout2,#workout3 {
-    background-color: white;
     width: 50%;
     margin: 0 25% 0 25%;
 }
