@@ -210,69 +210,74 @@
                 </div>
             </section>
             <section id="sectionright">
-                <p>Ready to take control of your health? Start by exploring our calculators or reading our expert advice
+                <p id="psectionright">Ready to take control of your health? Start by exploring our calculators or
+                    reading our expert advice
                     to make informed decisions about your diet, exercise, and well-being. Let’s embark on this journey
                     together!</p>
-                <h2 id="titleregistration">Weight Calculations</h2>
-                <form name="weightCalculations" id="weightCalculations">
-                    <div id="subelements">
-                        <div class="elements">
-                            <label class="editlabels" for="weight">Weight(kg):</label>
-                            <input type="number" name="weight" id="weight"><br>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="height">Height(inch):</label>
-                            <input type="number" name="height" id="height"><br>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="age">Age(years):</label>
-                            <input type="number" name="age" id="age"><br>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="gender">Gender:</label>
-                            <select id="gender" required>
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                            </select>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="activityLevel">Activity Level:</label>
-                            <select id="activityLevel" required>
-                                <option value="1.2">Sedentary</option>
-                                <option value="1.375">Lightly Active</option>
-                                <option value="1.55">Moderately Active</option>
-                                <option value="1.725">Very Active</option>
-                                <option value="1.9">Extra Active</option>
-                            </select>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="targetWeight">Target Weight:</label>
-                            <input type="number" name="targetWeight" id="targetWeight"><br>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="calorieadjustment">Enter your daily calorie adjustment
-                                (negative for weight loss, positive for weight gain):</label>
-                            <input type="number" name="calorieadjustment" id="calorieadjustment"><br>
-                        </div>
-                        <div class="buttonsend">
-                            <button type="button" id="calculate">Calculate</button>
-                            <button type="button" id="clear">Clear</button>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="idealbodyweight">Ideal Body Weight:</label>
-                            <input type="number" name="idealbodyweight" id="idealbodyweight"><br>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="dailycaloricneeds">Daily Caloric Needs:</label>
-                            <input type="number" name="dailycaloricneeds" id="dailycaloricneeds"><br>
-                        </div>
-                        <div class="elements">
-                            <label class="editlabels" for="lossorgaincalculator">The weight that should be gain or
-                                lost:</label>
-                            <input type="number" name="lossorgaincalculator" id="lossorgaincalculator"><br>
-                        </div>
-                    </div>
-                </form>
+                <div class="registrationdiv">
+                    <h2 id="titleregistration">Weight Calculations</h2>
+                    <form name="weightCalculations" id="weightCalculations">
+                        <fieldset>
+                            <div>
+                                <label class="editlabel2" for="weight">Weight(kg):</label>
+                                <input type="number" name="weight" id="weight"><br>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="height">Height(inch):</label>
+                                <input type="number" name="height" id="height"><br>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="age">Age(years):</label>
+                                <input type="number" name="age" id="age"><br>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="gender">Gender:</label>
+                                <select id="gender" required>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="activityLevel">Activity Level:</label>
+                                <select id="activityLevel" required>
+                                    <option value="1.2">Sedentary</option>
+                                    <option value="1.375">Lightly Active</option>
+                                    <option value="1.55">Moderately Active</option>
+                                    <option value="1.725">Very Active</option>
+                                    <option value="1.9">Extra Active</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="targetWeight">Target Weight:</label>
+                                <input type="number" name="targetWeight" id="targetWeight"><br>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="calorieadjustment">Enter your daily calorie
+                                    adjustment
+                                    (negative for weight loss, positive for weight gain):</label>
+                                <input type="number" name="calorieadjustment" id="calorieadjustment"><br>
+                            </div>
+                            <div class="buttonsend">
+                                <button type="button" id="calculate">Calculate</button>
+                                <button type="button" id="clear">Clear</button>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="idealbodyweight">Ideal Body Weight:</label>
+                                <input type="number" name="idealbodyweight" id="idealbodyweight"><br>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="dailycaloricneeds">Daily Caloric Needs:</label>
+                                <input type="number" name="dailycaloricneeds" id="dailycaloricneeds"><br>
+                            </div>
+                            <div>
+                                <label class="editlabel2" for="lossorgaincalculator">The weight that should be gain
+                                    or
+                                    lost:</label>
+                                <input type="number" name="lossorgaincalculator" id="lossorgaincalculator"><br>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
             </section>
         </div>
         <p id="lastp">If you want to log and track your weight over time with visual graphs, set and monitor
