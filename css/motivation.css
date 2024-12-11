@@ -20,15 +20,22 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 #motivImgDesc img {
     grid-column: 1;
+    grid-row: 2/4;
+    height: 100%;
+}
+#motivImgDesc ul {
+    grid-column: 2;
+    grid-row: 2/4;
 }
 #motiv1, #motiv2, #motiv3 {
     font-size: 1em;
     list-style: square;
     padding: 5px;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 #motivHeader {
@@ -48,7 +55,4 @@
 }
 #motivHeader p {
     grid-column: 1;
-}
-#motivImgDesc {
-    background-color: blue;
 }
