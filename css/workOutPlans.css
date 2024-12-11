@@ -13,6 +13,13 @@ padding: 0;
     margin: 0;
 }
 
+.heading {
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
 .subheading {
     font-size: 2em;
     text-align: center;
@@ -44,6 +51,7 @@ padding: 0;
 .tableElement, .tableHeader {
     border: 1px solid black;
     border-collapse: collapse;
+    background-color: rgb(232, 232, 246);
 }
 
 #workout1, #workout2,#workout3 {
