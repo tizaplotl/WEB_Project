@@ -10,7 +10,44 @@
     padding:10px;
 }
 
-table, .tableElement, .tableHeader {
+#workOutTable {
+    width: 50%;
+    margin: 0 25% 0 25%;
+    display: block;
+}
+
+#workOutTable, .tableElement, .tableHeader {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+#workout1 {
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.dropdown-content1 {
+    display: none;
+}
+
+#workout2 {
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.dropdown-content2 {
+    display: none;
+}
+
+#workout3 {
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.dropdown-content3 {
+    display: none;
+}
+
+.show {
+    display:block;
 }

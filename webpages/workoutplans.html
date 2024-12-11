@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="/index.html">Muscular mindset</a></h1>
+        <h1><a href="index.html">Muscular mindset</a></h1>
     </header>
     <nav>
         <ul>
@@ -33,7 +33,7 @@
         <br>
         <p>Feel free to <a href="#content4">Contact us</a> if you would like a personalized workout plan, or you can feel free to make use of our generic work out plans below.</p>
 
-        <table>
+        <table id="workOutTable">
             <tr>
                 <th class="tableHeader">Difficulty</th>
                 <th class="tableHeader">Frequency</th>
@@ -65,7 +65,8 @@
         </table>
 
 <div id="workout1">
-        <h3 class="subheading">Beginner Workout (5 minutes)</h3>
+    <h3 class="subheading"><button onclick="myFunction1()" class="dropbtn1">Beginner Workout (5 minutes)</button></h3>
+        <div id="myDropdown1" class="dropdown-content1">
         <p><strong>Duration:</strong> 20-30 minutes</p>
         <p><strong>Frequency:</strong> 3-4 times per week</p>
         <h4>Warm-Up (5 minutes)</h4>
@@ -98,9 +99,11 @@
             <li><strong>Child's pose: </strong>30 seconds</li>
             <li><strong>Deep breathing: </strong>1 minute</li>
         </ul>
+    </div>
 </div>
 <div id="workout2">
-        <h3 class="subheading">Adept Workout</h3>
+        <h3 class="subheading"><button onclick="myFunction2()" class="dropbtn2">Adept Workout</button></h3>
+        <div id="myDropdown2" class="dropdown-content2">
         <p><strong>Duration: </strong>45-60 minutes</p>
         <p><strong>Frequency: </strong>4-5 times per week</p>
         <p><strong>Equipment: </strong>Bodyweight; optional dumbells or resistance bands</p>
@@ -145,10 +148,12 @@
             <li><strong>Childs pose: </strong>30 seconds</li>
             <li><strong>Deep breathing: </strong>1 minute</li>
         </ul>
+    </div>
 </div>
 
 <div id="workout3">
-        <h3 class="subheading">Experienced Workout</h3>
+        <h3 class="subheading"><button onclick="myFunction3()" class="dropbtn3">Experienced Workout</button></h3>
+        <div id="myDropdown3" class="dropdown-content3"></div>
         <p><strong>Duration: </strong>60-75 minutes</p>
         <p><strong>Frequency: </strong>5-6 times per week</p>
         <p><strong>Equipment: </strong>Dumbbells, kettlebells, barbell, or resistance bands (option for bodyweight alternatives)</p>
@@ -199,6 +204,7 @@
             <li>Static stretches for major muscle groups (hamstring, quads, chest, shoulders, back)</li>
             <li>Deep breathing to relax the body</li>
         </ul>
+    </div>
 </div>
     </main>
     <footer id="footer">
@@ -238,6 +244,7 @@
         </div>
         <p id="Copyright">Copyright &copy; Offical Muscular Mindset</p>
     </footer>
+    <script src="../js/workout.js"></script>
 </body>
 </html>
 
