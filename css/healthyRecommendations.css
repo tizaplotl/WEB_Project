@@ -112,6 +112,11 @@ select {
     line-height: 27px;
 }
 
+.editlabel3 {
+    display: inline-block;
+    width: 300px;
+}
+
 #image1 {
     width: 80%;
     padding-left: 130px;
