@@ -1,20 +1,20 @@
 <!-- Alex Webpage -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="htmlworkout">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muscular Mindset Official Website - Workout Plans</title>
-    <link rel="icon" type="image/jpeg" href="../images/Screenshot 2024-11-10 172203.png">
+    <link rel="icon" type="image/jpeg" href="/images/Screenshot 2024-11-10 172203 copy.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/workOutPlans.css">
     <!-- Image source from: https://www.shutterstock.com/es/search/brain-gym -->
 </head>
-<body>
+<body id="bodyworkout">
     <header>
         <h1><a href="index.html">Muscular mindset</a></h1>
     </header>
-    <nav>
+    <nav id="navworkout">
         <ul>
             <li><a href="./workoutplans.html">Workout Plans</a></li>
             <li><a href="./nutrition.html">Nutrition Advice</a></li>
@@ -26,7 +26,8 @@
             <li><a href="#footer">Contact us</a></li>
         </ul>
     </nav>
-    <main>
+<main id="mainworkout">
+    <div class="bubbleView">
         <h2 class="heading">Workout Plans</h2>
 
         <p>Having a workout plan that is right for you is crucial because it ensures that your fitness routine aligns with your individual goals, fitness level, and lifestyle. A personalized plan takes into account your strengths, weaknesses, and any limitations, helping you avoid injury and maintain motivation. It also makes your workouts more enjoyable and sustainable by incorporating activities you like and can commit to. Moreover, a tailored plan balances the right mix of strength, cardio, and flexibility training to maximize results efficiently. When a workout plan is customized to suit your unique needs, you're more likely to stay consistent and achieve long-term success.</p>
@@ -63,9 +64,11 @@
                 <td class="tableElement">5-10 minutes</td>
             </tr>
         </table>
+    </div>
 
-<div id="workout1">
-    <h3 class="subheading"><button onclick="myFunction1()" class="dropbtn1">Beginner Workout (5 minutes)</button></h3>
+<div id="workout1" class="bubbleView">
+    <img src="../images/workout/dumbbell1.png">
+    <h3 class="subheading" onclick="myFunction1()" class="dropbtn1">Beginner Workout (5 minutes)</h3>
         <div id="myDropdown1" class="dropdown-content1">
         <p><strong>Duration:</strong> 20-30 minutes</p>
         <p><strong>Frequency:</strong> 3-4 times per week</p>
@@ -101,8 +104,9 @@
         </ul>
     </div>
 </div>
-<div id="workout2">
-        <h3 class="subheading"><button onclick="myFunction2()" class="dropbtn2">Adept Workout</button></h3>
+<div id="workout2" class="bubbleView">
+    <img src="../images/workout/dumbbell2.png">
+        <h3 class="subheading" onclick="myFunction2()" class="dropbtn2">Adept Workout</h3>
         <div id="myDropdown2" class="dropdown-content2">
         <p><strong>Duration: </strong>45-60 minutes</p>
         <p><strong>Frequency: </strong>4-5 times per week</p>
@@ -151,9 +155,10 @@
     </div>
 </div>
 
-<div id="workout3">
-        <h3 class="subheading"><button onclick="myFunction3()" class="dropbtn3">Experienced Workout</button></h3>
-        <div id="myDropdown3" class="dropdown-content3"></div>
+<div id="workout3" class="bubbleView">
+    <img src="../images/workout/dumbbell3.png">
+        <h3 class="subheading" onclick="myFunction3()" class="dropbtn3">Experienced Workout</h3>
+        <div id="myDropdown3" class="dropdown-content3">
         <p><strong>Duration: </strong>60-75 minutes</p>
         <p><strong>Frequency: </strong>5-6 times per week</p>
         <p><strong>Equipment: </strong>Dumbbells, kettlebells, barbell, or resistance bands (option for bodyweight alternatives)</p>
