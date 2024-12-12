@@ -123,7 +123,7 @@ span {
     margin-left: 0px;
 }
 
-.buttonsend {
+#buttonsend {
     padding-left: 350px;
 }
 
@@ -186,8 +186,35 @@ footer ul li a {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     nav ul li a {
         padding-left: 80px;
     }
 
+    h1 {
+        font-size: 2.5em;
+        line-height: 70px;
+    }
+
+    body {
+        font-size: 1.3em;
+        line-height: 30px;
+    }
+
+    input, select{
+        font-size: 1em;
+    }
+
+    #button {
+        font-size: 1em;
+    }
+
+    #submit{
+        width: 200px;
+    }
+
+    #calculate, #clear{
+        width: 100px;
+        font-size: 1em;
+    }
 }
