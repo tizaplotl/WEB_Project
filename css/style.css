@@ -183,26 +183,33 @@ footer ul li a {
 
 @media only screen and (min-width: 0) and (max-width: 768px) {
     nav {
-        clear: both;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-between;
         width: 100%;
-        height: 100px;
+        height: auto;
     }
     nav ul {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
     }
     nav ul li {
-        width: 10%;
+        flex: 1 1 auto;
+        text-align: center;
+        width: 100%;
+        background-color: gray;
     }
     nav a {
         font-size: 0.8em;
-        padding: 0px;
+        padding: 5px;
         text-align: center;
+        display: block;
     }
+
     main {
         clear: both;
         width: 100%;
