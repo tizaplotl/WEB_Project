@@ -58,16 +58,34 @@ padding: 0;
 
 .woflexcontainer {
     display: flex;
-    .workoutimg {
-        flex: left;
-    }
 }
-
+/* .woflexcontainer:hover {
+    color: red;
+    background-color: red;
+    border: 5px solid red;
+} */
+.workoutimg {
+    flex: left;
+}
 #workout1, #workout2,#workout3 {
     width: 50%;
     margin: 0 25% 0 25%;
 }
-
+/* #workout1:hover {
+    background-color: red;
+} 
+#workout2:hover {
+    background-color: red;
+}
+#workout3:hover {
+    background-color: red;
+}
+#workout1:hover {
+    background-color: red;
+}
+.wosubheading:hover {
+    background-color: red;
+} */
 .dropdown-content1, .dropdown-content2, .dropdown-content3 {
     display: none;
 
@@ -79,4 +97,11 @@ padding: 0;
 
 .show {
     display:block;
+}
+@media only screen and (min-width: 0) and (max-width: 768px) {
+        /* Workout Plans */
+        #workout1, #workout2, #workout3 {
+            width: 100%;
+            margin: 0px;
+        }
 }
