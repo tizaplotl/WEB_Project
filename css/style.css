@@ -224,4 +224,13 @@ footer ul li a {
     #homeGymNav {
         height: 100px;
     }
+    #homeWhyContainer {
+        display: inline-block;
+    }
+    #homeEquipment ul {
+        display: inline-block;
+    }
+    #homeEquipment li {
+        margin: 20px;
+    }
 }
