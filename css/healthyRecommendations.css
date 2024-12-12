@@ -123,14 +123,13 @@ span {
     margin-left: 0px;
 }
 
-.divsectionright {}
-
-
+.buttonsend {
+    padding-left: 350px;
+}
 
 #results {
     padding: 50px 0px 5px 0px;
     text-align: left;
-
 }
 
 .editlabel3 {
@@ -179,4 +178,16 @@ footer ul li a {
     text-align: center;
     clear: both;
     padding-top: 10px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    #gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    nav ul li a {
+        padding-left: 80px;
+    }
+
 }
