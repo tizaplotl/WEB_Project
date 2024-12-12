@@ -228,9 +228,9 @@ footer ul li a {
         grid-row: 3;
         grid-column: 1/4;
     }
-    #homeGymNav {
+    /* #homeGymNav {
         height: 100px;
-    }
+    } */
     #homeWhyContainer {
         display: inline-block;
     }

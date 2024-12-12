@@ -8,9 +8,9 @@
     box-shadow: 0 4px 6px black;
 }
 /* Temporary fix */
-#homeGymNav {
+/* #homeGymNav {
     height: 500%;
-}
+} */
 #homeWhyContainer {
     display: flex;
     align-items: flex-start;
