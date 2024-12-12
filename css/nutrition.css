@@ -43,11 +43,45 @@ section img {
     margin: 20px;
 }   
 
-#Copyright {
-    margin-top: 1rem;
-    font-size: 0.8rem;
-    color: #aaa;
+.caloriesPerDay table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.caloriesPerDay table thead {
+    background-color: #0078D4;
+    color: #fff;
+    text-align: left;
+}
+
+.caloriesPerDay table th, .caloriesPerDay table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.caloriesPerDay table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.caloriesPerDay table tr:hover {
+    background-color: #e6f7ff;
+}
+
+.caloriesPerDay table th {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.caloriesPerDay table td {
+    vertical-align: top;
+    line-height: 1.5;
+}
+
 @media only screen and (min-width: 0) and (max-width: 768px) {
     section img {
         max-width: 100%;
