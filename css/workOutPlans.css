@@ -1,9 +1,3 @@
-#htmlworkout #bodyworkout {
-/* height: 100%; */
-margin: 0;
-padding: 0;
-}
-
 /* #navworkout {
     height: 100%;
 } */
@@ -21,7 +15,7 @@ padding: 0;
 }
 
 .wosubheading {
-    font-size: 3.5em;
+    font-size: 3vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -42,13 +36,16 @@ padding: 0;
 }
 
 #workOutTable {
-    width: 50%;
-    margin: 0 auto 0 auto;
+    margin: 0 15% 0 15%;
     display: block;
 }
 
 .tableHeader, .tableElement {
-    padding:10px;
+margin: 0;
+}
+
+.tableElement {
+    width: 5%;
 }
 
 .tableElement, .tableHeader {
@@ -64,6 +61,8 @@ padding: 0;
 
 .workoutimg {
         flex: left;
+        height: 5%;
+        width: auto;
 }
 
 #workout1, #workout2,#workout3 {
