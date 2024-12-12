@@ -151,12 +151,6 @@ h2{
     border-radius: 10px;
 }
 
-/* Animation */
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
-}
 
 .hidden {
     opacity: 0;
@@ -171,4 +165,19 @@ h2{
 
 h2{
     text-align: center;
+}
+
+@media only screen and (min-width: 0) and (max-width: 768px) 
+{
+    #sauna-bg{
+        display: none;       
+    }
+
+    .hidden{
+        opacity: 100;
+    }
+
+    .gym_effects, .benefits, .interactive, h2{
+        background-color: black;
+    }
 }
