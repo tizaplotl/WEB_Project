@@ -218,4 +218,7 @@ footer ul li a {
         width: 100px;
         font-size: 1em;
     }
+    #healthyBody {
+        display: inline-grid;
+    }
 }
