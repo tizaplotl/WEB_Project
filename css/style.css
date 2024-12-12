@@ -207,4 +207,21 @@ footer ul li a {
         clear: both;
         width: 100%;
     }
+    #motivImgDesc {
+        height: 1000px;
+    }
+    #motivImgDesc img {
+        grid-row: 2;
+        grid-column: 1/4;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    #motivImgDesc ul {
+        grid-row: 3;
+        grid-column: 1/4;
+    }
+    #homeGymNav {
+        height: 100px;
+    }
 }
