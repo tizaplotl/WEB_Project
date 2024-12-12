@@ -134,6 +134,7 @@ h2{
 
 .gym_effects {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.39), rgba(30, 30, 30, 0.9)), url('sauna-background.jpg') center/cover no-repeat;
+    /* does this image exist? */
     color: #fff;
     padding: 50px;
     border-radius: 15px;
