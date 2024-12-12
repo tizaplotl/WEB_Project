@@ -15,7 +15,7 @@
 }
 
 .wosubheading {
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -67,8 +67,8 @@ margin: 0;
         width: auto;
 }
 #workout1, #workout2,#workout3 {
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    margin: 25px 5% 25px 5%;
 }
 /* #workout1:hover {
     background-color: red;
