@@ -49,3 +49,9 @@ section img {
     font-size: 0.8rem;
     color: #aaa;
 }
+@media only screen and (min-width: 0) and (max-width: 768px) {
+    section img {
+        max-width: 100%;
+        margin: 0px;
+    }
+}

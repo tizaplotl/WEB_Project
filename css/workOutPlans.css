@@ -19,7 +19,6 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    line-height: 70px;
 }
 
 .wosubheading2 {
@@ -27,7 +26,7 @@
     text-align: center;
 }
 
-.wobubbleView {
+.bubbleView {
     border: 1px solid grey;
     box-shadow: 0 4px 6px black;
     border-radius: 20px;
@@ -56,20 +55,36 @@ margin: 0;
 
 .woflexcontainer {
     display: flex;
-    
 }
-
+/* .woflexcontainer:hover {
+    color: red;
+    background-color: red;
+    border: 5px solid red;
+} */
 .workoutimg {
         flex: left;
         height: 5%;
         width: auto;
 }
-
 #workout1, #workout2,#workout3 {
     width: 50%;
     margin: 0 25% 0 25%;
 }
-
+/* #workout1:hover {
+    background-color: red;
+} 
+#workout2:hover {
+    background-color: red;
+}
+#workout3:hover {
+    background-color: red;
+}
+#workout1:hover {
+    background-color: red;
+}
+.wosubheading:hover {
+    background-color: red;
+} */
 .dropdown-content1, .dropdown-content2, .dropdown-content3 {
     display: none;
 
@@ -82,21 +97,10 @@ margin: 0;
 .show {
     display:block;
 }
-
-#wocontent1, #wocontent2, #wocontent3, #wocontent4 {
-    width: 45%;
-    margin: 50px 2.5% 0px 2.5%;
-}
-
-.mwpar {
-    font-size: 1.2em;
-}
-
-#mwimg {
-    float: right;
-}
-
-#mwheading {
-    width: 40%;
-    margin: 0 30% 0 30%;
+@media only screen and (min-width: 0) and (max-width: 768px) {
+        /* Workout Plans */
+        #workout1, #workout2, #workout3 {
+            width: 100%;
+            margin: 0px;
+        }
 }
