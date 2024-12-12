@@ -15,7 +15,7 @@
 }
 
 .wosubheading {
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.bubbleView {
+.wobubbleView {
     border: 1px solid grey;
     box-shadow: 0 4px 6px black;
     border-radius: 20px;
@@ -67,8 +67,8 @@ margin: 0;
         width: auto;
 }
 #workout1, #workout2,#workout3 {
-    width: 50%;
-    margin: 0 25% 0 25%;
+    width: 90%;
+    margin: 25px 5% 25px 5%;
 }
 /* #workout1:hover {
     background-color: red;
@@ -96,6 +96,28 @@ margin: 0;
 
 .show {
     display:block;
+}
+#wocontent1, #wocontent3, #wocontent4 {
+    width: 45%;
+    margin: 50px 2.5% 0px 2.5%;
+}
+
+#wocontent2 {
+    width: 90%;
+    margin: 50px 5% 0px 5%;
+}
+
+.mwpar {
+    font-size: 1.2em;
+}
+
+#mwimg {
+    float: right;
+}
+
+#mwheading {
+    width: 40%;
+    margin: 0 30% 0 30%;
 }
 @media only screen and (min-width: 0) and (max-width: 768px) {
         /* Workout Plans */
