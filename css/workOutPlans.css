@@ -13,21 +13,21 @@ padding: 0;
     margin: 0;
 }
 
-.heading {
+.woheading {
     border: none;
     background-color: white;
     text-align: center;
     font-size: 3em;
 }
 
-.subheading {
+.wosubheading {
     font-size: 3.5em;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.subheading2 {
+.wosubheading2 {
     font-size: 1.5em;
     text-align: center;
 }
@@ -71,6 +71,10 @@ padding: 0;
 .dropdown-content1, .dropdown-content2, .dropdown-content3 {
     display: none;
 
+}
+
+#woimg3 {
+    margin-top:10px;
 }
 
 .show {
