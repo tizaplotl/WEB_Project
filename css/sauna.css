@@ -167,17 +167,167 @@ h2{
     text-align: center;
 }
 
-@media only screen and (min-width: 0) and (max-width: 768px) 
-{
-    #sauna-bg{
-        display: none;       
+@media only screen and (min-width: 0) and (max-width: 768px) {
+    /* General Styles */
+    body {
+
+    }
+
+    main{
+        background-image: url(/images/Solstice-Sauna-Background-header-1.jpg);
+        background-size: cover;
     }
 
     .hidden{
-        opacity: 100;
+        opacity: 100%;
     }
 
-    .gym_effects, .benefits, .interactive, h2{
-        background-color: black;
+    h2 {
+        background-color: rgba(255, 255, 255, 0.463);
     }
+
+    /* Intro Section */
+    .intro {
+        padding: 20px;
+        text-align: center;
+        background: linear-gradient(135deg, #1e1e1e, #2d2d2d);
+        border-radius: 10px;
+        margin: 10px auto;
+    }
+
+    #sauna-bg{
+        display: none;
+        
+    }
+
+    .intro p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .intro button {
+        background: linear-gradient(135deg, #FF8C00, #FF5722);
+        color: #fff;
+        border: none;
+        padding: 12px 25px;
+        font-size: 1rem;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: transform 0.3s ease, background 0.3s ease;
+        display: inline-block;
+    }
+
+    .intro button:hover {
+        transform: scale(1.1);
+        background: linear-gradient(135deg, #FF5722, #FF4500);
+    }
+
+    /* Benefits Section */
+    .benefits {
+        display: block; /* Stack benefits vertically */
+        padding: 20px;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        margin: 20px auto;
+        background: linear-gradient(135deg, #242424, #333);
+        color: #f5f5f5;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+    }
+
+    .card-front, .card-back {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    /* Interactive Section */
+    .interactive {
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .interactive img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .interactive img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    .hotspot {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background-color: #FF8C00;
+        border-radius: 50%;
+        cursor: pointer;
+        animation: pulse 2s infinite ease-in-out;
+    }
+
+    .tooltip {
+        position: absolute;
+        font-size: 0.85rem;
+        background: rgba(30, 30, 30, 0.9);
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: left;
+        line-height: 1.4;
+        max-width: 250px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Gym Effects Section */
+    .gym_effects {
+        background: linear-gradient(135deg, #43769560, #ffdaa149);
+        padding: 30px 20px;
+        margin: 20px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        color: #f5f5f5;
+    }
+
+    .gym_effects .content {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+        line-height: 1.6;
+    }
+
+    /* Adjustments for Smaller Text */
+    p, button {
+        font-size: 0.95rem;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .centered {
+        text-align: center;
+        margin: 0 auto;
+    }
+
 }
+

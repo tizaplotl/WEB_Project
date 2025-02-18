@@ -201,6 +201,7 @@ footer ul li a {
         line-height: 30px;
     }
 
+
     input, select{
         font-size: 1em;
     }
@@ -216,5 +217,8 @@ footer ul li a {
     #calculate, #clear{
         width: 100px;
         font-size: 1em;
+    }
+    #healthyBody {
+        display: inline-grid;
     }
 }
